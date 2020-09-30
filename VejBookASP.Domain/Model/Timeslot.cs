@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace VejBookASP.Domain.Model
 {
@@ -8,12 +9,13 @@ namespace VejBookASP.Domain.Model
     {
         //Props
         public Guid Id { get;}
-        public BCalendar BCalendar { get;}
 
-        public Timeslot(Guid id, BCalendar bCalendar)   // Constructor
+        [NotMapped]
+        public BCalendar BCalendar { get; set; }
+
+        public Timeslot(Guid id)   // Constructor
         {
-            Id = id;
-            BCalendar = bCalendar;
+            Id = id;      
         }
 
    

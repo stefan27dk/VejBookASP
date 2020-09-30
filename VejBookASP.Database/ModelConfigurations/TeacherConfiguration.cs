@@ -9,6 +9,8 @@ namespace VejBookASP.Database.ModelConfigurations
         public void Configure(EntityTypeBuilder<Domain.Model.Teacher> builder)
         {
             builder.HasKey(async => async.Id);
+            builder.HasKey(async => async.FirstName);
+            builder.HasKey(async => async.LastName);
         }
     }
 }
