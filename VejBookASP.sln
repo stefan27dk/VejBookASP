@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VejBookASP", "VejBookASP\VejBookASP.csproj", "{5806C7C5-8C85-4B7D-97CA-42689D1C59EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VejBookASP.Database", "VejBookASP.Database\VejBookASP.Database.csproj", "{15F10E20-C216-48B4-A456-331BAAEB6FB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VejBookASP.Services", "VejBookASP.Services\VejBookASP.Services.csproj", "{65D44F86-F65F-485D-8B6F-5AEFDBD28F7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VejBookASP.Query", "VejBookASP.Query\VejBookASP.Query.csproj", "{83661391-19AE-4189-ADB5-7DB743BC8F32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VejBookASP.Domain", "VejBookASP.Domain\VejBookASP.Domain.csproj", "{FBF52B33-0784-4E06-9476-B3A175313786}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VejBookASP.Database.Migrations", "VejBookASP.Database.Migrations\VejBookASP.Database.Migrations.csproj", "{5B673041-BE13-4452-A8BE-528C9F57A518}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5806C7C5-8C85-4B7D-97CA-42689D1C59EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5806C7C5-8C85-4B7D-97CA-42689D1C59EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5806C7C5-8C85-4B7D-97CA-42689D1C59EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5806C7C5-8C85-4B7D-97CA-42689D1C59EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15F10E20-C216-48B4-A456-331BAAEB6FB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15F10E20-C216-48B4-A456-331BAAEB6FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15F10E20-C216-48B4-A456-331BAAEB6FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15F10E20-C216-48B4-A456-331BAAEB6FB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65D44F86-F65F-485D-8B6F-5AEFDBD28F7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65D44F86-F65F-485D-8B6F-5AEFDBD28F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65D44F86-F65F-485D-8B6F-5AEFDBD28F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65D44F86-F65F-485D-8B6F-5AEFDBD28F7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83661391-19AE-4189-ADB5-7DB743BC8F32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83661391-19AE-4189-ADB5-7DB743BC8F32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83661391-19AE-4189-ADB5-7DB743BC8F32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83661391-19AE-4189-ADB5-7DB743BC8F32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBF52B33-0784-4E06-9476-B3A175313786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF52B33-0784-4E06-9476-B3A175313786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF52B33-0784-4E06-9476-B3A175313786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF52B33-0784-4E06-9476-B3A175313786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B673041-BE13-4452-A8BE-528C9F57A518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B673041-BE13-4452-A8BE-528C9F57A518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B673041-BE13-4452-A8BE-528C9F57A518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B673041-BE13-4452-A8BE-528C9F57A518}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F1B80B45-0C2F-438E-B904-9C4D30F7B186}
+	EndGlobalSection
+EndGlobal
