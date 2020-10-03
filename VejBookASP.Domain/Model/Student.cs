@@ -4,7 +4,7 @@ using System.Text;
 
 namespace VejBookASP.Domain.Model
 {
-   public class Student
+    public class Student
     {
         // Props
         public Guid Id{get;}
@@ -17,9 +17,39 @@ namespace VejBookASP.Domain.Model
             Id = id;
             FirstName = firstName;
             LastName = lastName;
+            Validate();
         }
 
 
         public ICollection<Hold> Holds { get; set; }
+
+
+
+
+
+
+        // Methods::::::::::::::::::::::::::::::::::::::::::::::::::::::::::  
+
+        // Validate
+        private void Validate()
+        {
+            ValidateName();
+
+        }
+
+
+
+        // Validate Name 
+        private void ValidateName()
+        {
+            if ((FirstName.Length > 2) && LastName.Length > 2)
+            {
+                return;
+            }
+            else
+            {
+                throw new Exception("Name is too short! This is not your name Exception");
+            }
+        }
     }
 }
