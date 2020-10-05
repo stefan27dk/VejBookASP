@@ -9,9 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Commands\" />
-    <Folder Include="Dto\" />
-    <Folder Include="Infrastructure\" />
+    <Folder Include="Queries\" />
   </ItemGroup>
 
 </Project>
